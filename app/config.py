@@ -74,11 +74,19 @@ MIN_HORIZON  = 1
 
 
 # ── Artifact File Names ───────────────────────────────────────────────────────
+# All four buckets route to the SAME model file. This is intentional, not a
+# bug: the production training script (notebook/16_save_production_model.py)
+# trains one global XGBoost model, matching the validated methodology in
+# script 15 (Feature_Engineering_Experiment.py) — horizon_bucket is used
+# there only to slice evaluation results, not to train separate models.
+# See that script's module docstring for the full explanation, including
+# why an earlier version of this file appeared to have 4 different models
+# that were actually byte-for-byte identical.
 MODEL_FILES: Dict[str, str] = {
-    "near":     "near_model.pkl",
-    "mid":      "mid_model.pkl",
-    "far":      "far_model.pkl",
-    "extended": "extended_model.pkl",
+    "near":     "global_model.pkl",
+    "mid":      "global_model.pkl",
+    "far":      "global_model.pkl",
+    "extended": "global_model.pkl",
 }
 FEATURE_COLUMNS_FILE = ARTIFACTS_DIR / "feature_columns.json"
 STORE_METADATA_FILE  = ARTIFACTS_DIR / "store_metadata.json"

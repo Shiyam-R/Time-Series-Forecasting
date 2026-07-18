@@ -1,18 +1,45 @@
 """
 16_save_production_model.py
 ─────────────────────────────────────────────────────────────────────────────
-Trains the final production XGBoost models (one per horizon bucket) on the
-full available dataset and saves all artifacts required by the FastAPI
-application.
+Trains the final production XGBoost model on the full available dataset and
+saves all artifacts required by the FastAPI application.
+
+ARCHITECTURE NOTE (read before modifying):
+    This trains ONE global XGBoost model — not four separate per-bucket
+    models. This mirrors script 15 (Feature_Engineering_Experiment.py)
+    exactly, whose interaction features (store652_weekend, storeA_november,
+    is_herbstferien, etc.) are validated in that script by training a single
+    model and evaluating it *sliced* by horizon bucket after the fact — the
+    bucket never changes what the model is trained on.
+
+    This is a deliberate choice, not a shortcut: an earlier version of this
+    script trained inside a `for bucket in BUCKET_RANGES` loop, but every
+    iteration used identical X/y and identical random_state, so all four
+    "different" models came out byte-for-byte identical anyway — the loop
+    gave the illusion of per-bucket differentiation without ever actually
+    producing it. Removing the loop makes the codebase honest about what's
+    actually being trained.
+
+    A GENUINELY different per-bucket model exists in
+    notebook/Time_Series_Fair_Horizon_Evaluation.py (script 12) — it uses a
+    different data construction entirely (anchor/target date pairs, horizon
+    as an input feature, log-transformed targets, a fitted StandardScaler).
+    That approach was intentionally kept experimental and out of production
+    (saved as artifacts/xgb_fair_eval_*.pkl). If that architecture is ever
+    promoted to production instead, app/utils/preprocessing.py and
+    app/utils/feature_engineering.py both need a corresponding rewrite to
+    add anchor/horizon/log-target/scaler support — they currently mirror
+    script 15's methodology, not script 12's.
 
 Run ONCE before starting the API:
     python 16_save_production_model.py
 
 Artifacts saved to artifacts/:
-    models/near_model.pkl        — Near bucket XGBoost model (days 1–14)
-    models/mid_model.pkl         — Mid bucket XGBoost model  (days 15–30)
-    models/far_model.pkl         — Far bucket XGBoost model  (days 31–60)
-    models/extended_model.pkl    — Extended bucket XGBoost   (days 61–90)
+    models/global_model.pkl      — The single production XGBoost model,
+                                    used for all four horizon buckets
+                                    (near/mid/far/extended route to the
+                                    same model — see app/config.py
+                                    MODEL_FILES).
     feature_columns.json         — Ordered feature column list
     store_metadata.json          — Per-store metadata dict
     lag_defaults.json            — Per-store lag feature defaults
@@ -33,9 +60,9 @@ ARTIFACTS    = Path("artifacts")
 MODELS_DIR   = ARTIFACTS / "models"
 MODELS_DIR.mkdir(parents=True, exist_ok=True)
 
-# ── Evaluation settings ───────────────────────────────────────────────────────
+# ── Training window ────────────────────────────────────────────────────────────
 TRAIN_END    = pd.Timestamp("2015-07-31")   # last date used for training
-BUCKET_RANGES = {
+BUCKET_RANGES = {   # kept only for documentation / evaluation slicing elsewhere
     "near":     (1,  14),
     "mid":      (15, 30),
     "far":      (31, 60),
@@ -195,13 +222,6 @@ def get_feature_cols(df: pd.DataFrame) -> list:
     return [c for c in df.columns if c not in exclude]
 
 
-def assign_bucket(h: int) -> str:
-    for b, (lo, hi) in BUCKET_RANGES.items():
-        if lo <= h <= hi:
-            return b
-    return "other"
-
-
 # ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     print("=" * 60)
@@ -229,21 +249,19 @@ if __name__ == "__main__":
     y = df_feat["Sales"].values
     print(f"  Feature matrix: {X.shape}")
 
-    # Train per-bucket models
-    print("\nTraining horizon-specific models …")
-    for bucket, (lo, hi) in BUCKET_RANGES.items():
-        # Assign pseudo-horizon using day_of_year modulo
-        # (in production retraining, use actual horizon from fair eval)
-        # Simple approach: train all models on full data (horizon is a feature
-        # in production prediction, not in this training — consistent with
-        # the "direct sales model" approach used in script 15)
-        model = XGBRegressor(**XGBOOST_PARAMS)
-        model.fit(X, y, verbose=False)
+    # ── Train ONE global model ────────────────────────────────────────────────
+    # See the module docstring for why this is a single model rather than a
+    # per-bucket loop: this matches script 15's validated methodology, where
+    # `horizon_bucket` is an evaluation-time slice, not a training-time split.
+    print("\nTraining production model …")
+    model = XGBRegressor(**XGBOOST_PARAMS)
+    model.fit(X, y, verbose=False)
 
-        path = MODELS_DIR / f"{bucket}_model.pkl"
-        with open(path, "wb") as f:
-            pickle.dump(model, f)
-        print(f"  ✓ {bucket.upper()} model saved  →  {path}")
+    model_path = MODELS_DIR / "global_model.pkl"
+    with open(model_path, "wb") as f:
+        pickle.dump(model, f)
+    print(f"  ✓ Global model saved  →  {model_path}")
+    print("    (used for all four horizon buckets — see app/config.py MODEL_FILES)")
 
     # Save feature columns
     feat_cols_path = ARTIFACTS / "feature_columns.json"
