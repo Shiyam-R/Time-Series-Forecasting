@@ -32,6 +32,7 @@ from app.config import (
     FEATURE_COLUMNS_FILE,
     STORE_METADATA_FILE,
     LAG_DEFAULTS_FILE,
+    MODEL_METADATA_FILE,
     BUCKET_ORDER,
 )
 from app.exceptions import ArtifactLoadError, ModelNotLoadedError
@@ -51,6 +52,7 @@ class ModelArtifacts:
     feature_columns: List[str]            = field(default_factory=list)
     store_metadata:  Dict[str, Dict]      = field(default_factory=dict)
     lag_defaults:    Dict[str, Dict]      = field(default_factory=dict)
+    model_metadata:  Dict[str, Any]       = field(default_factory=dict)
     loaded:          bool                 = False
 
     def get_model(self, bucket: str):
@@ -163,11 +165,28 @@ def load_artifacts() -> ModelArtifacts:
             "  ✗ lag_defaults.json not found — lag features will be -9999."
         )
 
+    # ── Model metadata (training provenance) ─────────────────────────────────
+    # Optional and non-fatal — older artifact sets predating this file will
+    # simply show no trained_at/git_commit in GET /version.
+    model_meta: Dict = {}
+    try:
+        model_meta = _load_json(MODEL_METADATA_FILE, "model_metadata.json")
+        logger.info(
+            "  ✓ Model metadata loaded  (trained_at=%s, git_commit=%s)",
+            model_meta.get("trained_at"), model_meta.get("git_commit"),
+        )
+    except ArtifactLoadError:
+        logger.info(
+            "  · model_metadata.json not found — /version will omit "
+            "trained_at/git_commit. Re-run script 16 to generate it."
+        )
+
     # ── Populate singleton ────────────────────────────────────────────────────
     artifacts.models          = loaded_models
     artifacts.feature_columns = feat_cols
     artifacts.store_metadata  = store_meta
     artifacts.lag_defaults    = lag_defs
+    artifacts.model_metadata  = model_meta
     artifacts.loaded          = True
 
     logger.info(

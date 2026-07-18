@@ -91,6 +91,8 @@ MODEL_FILES: Dict[str, str] = {
 FEATURE_COLUMNS_FILE = ARTIFACTS_DIR / "feature_columns.json"
 STORE_METADATA_FILE  = ARTIFACTS_DIR / "store_metadata.json"
 LAG_DEFAULTS_FILE    = ARTIFACTS_DIR / "lag_defaults.json"
+MODEL_METADATA_FILE  = MODELS_DIR / "model_metadata.json"   # training provenance —
+                                                              # optional; see script 16
 
 
 # ── Valid Categorical Values ──────────────────────────────────────────────────

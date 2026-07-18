@@ -110,6 +110,8 @@ def version() -> VersionResponse:
         api_version   = API_VERSION,
         model_version = MODEL_VERSION,
         environment   = ENVIRONMENT,
+        trained_at    = artifacts.model_metadata.get("trained_at"),
+        git_commit    = artifacts.model_metadata.get("git_commit"),
     )
 
 

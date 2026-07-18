@@ -47,6 +47,8 @@ Artifacts saved to artifacts/:
 
 import json
 import pickle
+import subprocess
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -222,6 +224,22 @@ def get_feature_cols(df: pd.DataFrame) -> list:
     return [c for c in df.columns if c not in exclude]
 
 
+def _get_git_commit() -> str:
+    """
+    Best-effort short git commit hash for training provenance.
+    Returns "unknown" if not in a git repo, git isn't installed, or the
+    lookup fails for any reason — this must never break training.
+    """
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--short", "HEAD"],
+            capture_output=True, text=True, timeout=5, check=True,
+        )
+        return result.stdout.strip() or "unknown"
+    except Exception:
+        return "unknown"
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     print("=" * 60)
@@ -262,6 +280,30 @@ if __name__ == "__main__":
         pickle.dump(model, f)
     print(f"  ✓ Global model saved  →  {model_path}")
     print("    (used for all four horizon buckets — see app/config.py MODEL_FILES)")
+
+    # ── Model metadata sidecar (training provenance) ──────────────────────────
+    # No RMSPE is recorded here: this script trains on the full dataset with
+    # no holdout split, so it has no honest accuracy figure to report.
+    # RMSPE is measured separately in the fair multi-origin backtest
+    # (script 12) — see that script's output for validated accuracy numbers.
+    model_metadata = {
+        "trained_at":          datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "git_commit":          _get_git_commit(),
+        "training_data_start": str(train["Date"].min().date()),
+        "training_data_end":   str(train["Date"].max().date()),
+        "training_rows":       int(len(train)),
+        "feature_count":       len(feat_cols),
+        "xgboost_params":      XGBOOST_PARAMS,
+        "methodology": (
+            "Single global XGBoost model serving all four horizon buckets "
+            "(near/mid/far/extended route to the same model — see "
+            "app/config.py MODEL_FILES and this script's module docstring)."
+        ),
+    }
+    metadata_path = MODELS_DIR / "model_metadata.json"
+    with open(metadata_path, "w") as f:
+        json.dump(model_metadata, f, indent=2)
+    print(f"  ✓ Model metadata saved  →  {metadata_path}")
 
     # Save feature columns
     feat_cols_path = ARTIFACTS / "feature_columns.json"

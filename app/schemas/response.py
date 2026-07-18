@@ -13,7 +13,7 @@ that the auto-generated OpenAPI docs (/docs) are self-explanatory.
 """
 
 from datetime import datetime
-from typing import List, Literal
+from typing import List, Literal, Optional
 from pydantic import BaseModel, Field
 
 
@@ -228,4 +228,21 @@ class VersionResponse(BaseModel):
         ...,
         description="Deployment environment: 'development', 'staging', or 'production'.",
         examples=["production"],
+    )
+    trained_at: Optional[str] = Field(
+        default=None,
+        description=(
+            "UTC timestamp when the currently deployed model was trained. "
+            "None if artifacts/models/model_metadata.json was not found "
+            "(older artifact sets predating this field)."
+        ),
+        examples=["2026-07-18T14:32:00Z"],
+    )
+    git_commit: Optional[str] = Field(
+        default=None,
+        description=(
+            "Short git commit hash the model was trained from, if known. "
+            "'unknown' if training happened outside a git repository."
+        ),
+        examples=["a1b2c3d"],
     )
