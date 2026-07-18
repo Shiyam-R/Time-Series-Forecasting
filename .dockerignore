@@ -1,0 +1,57 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# .dockerignore — Rossmann Forecasting API
+# Keeps the build context (and final image) limited to what app/main.py
+# actually needs at runtime.
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ── Version control / CI ──────────────────────────────────────────────────────
+.git
+.gitignore
+.github
+
+# ── Python caches / bytecode ──────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Data & analysis assets — not needed at inference time ────────────────────
+data/
+notebook/
+figures/
+
+# ── Tests — run in CI against source, not shipped in the runtime image ───────
+tests/
+
+# ── Superseded / experimental model artifacts ─────────────────────────────────
+# Only artifacts/models/*.pkl (the 4 production models) and the 3 JSON
+# files at the artifacts/ root are read by app/model_loader.py. This
+# pattern excludes the ~230MB of loose experiment .pkl files sitting at
+# the artifacts/ root without touching artifacts/models/ (a single "*"
+# does not cross directory boundaries).
+artifacts/*.pkl
+
+# ── Dev-only dependency manifest ──────────────────────────────────────────────
+requirements-dev.txt
+
+# ── Runtime-generated files — should never be baked into an image ────────────
+logs/
+*.log
+
+# ── Editor / OS junk ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+
+# ── Secrets — never bake these into an image ──────────────────────────────────
+.env
+*.env

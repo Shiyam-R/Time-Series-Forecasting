@@ -1,0 +1,45 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# .gitignore — Rossmann Forecasting API
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ── Python caches / bytecode ──────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Raw & processed data ──────────────────────────────────────────────────────
+# ~1.7 GB, sourced from Kaggle and regenerable via the preprocessing
+# scripts — not source code, doesn't belong in git history.
+data/raw/
+data/processed/
+
+# ── Superseded / experimental model artifacts ─────────────────────────────────
+# Only artifacts/models/*.pkl (the 4 production models, ~8.4MB total) and
+# the 3 JSON files at the artifacts/ root are needed to run the API.
+# Loose experiment .pkl files at the artifacts/ root (~227MB) are
+# development history, not deployment dependencies.
+artifacts/*.pkl
+
+# ── Runtime-generated files ────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Editor / OS junk ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+
+# ── Secrets — never commit these ───────────────────────────────────────────────
+.env
+*.env
