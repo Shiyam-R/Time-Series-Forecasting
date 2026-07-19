@@ -35,6 +35,10 @@ artifacts/*.pkl
 logs/
 *.log
 
+# ── Load test output (see load_test/README.md) — generated, not source ───────
+load_test/results*.csv
+load_test/report.html
+
 # ── Editor / OS junk ───────────────────────────────────────────────────────────
 .vscode/
 .idea/

@@ -157,6 +157,10 @@ pytest
 
 Configuration lives in `pytest.ini` (test discovery, `asyncio_mode`).
 
+## Load Testing
+
+Concurrency and latency testing lives in `load_test/` (Locust) — separate from `tests/` since it exercises a live running instance of the API rather than mocked components. See [`load_test/load_test_results.md`](load_test/load_test_results.md) for setup, how to run it, and how to interpret results.
+
 ## CI/CD
 
 Every push and pull request to `main` runs `.github/workflows/ci.yml`:
