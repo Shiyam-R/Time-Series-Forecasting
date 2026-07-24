@@ -75,7 +75,7 @@ locust -f load_test/locustfile.py --host http://localhost:8000 \
 
 ## Reference baseline (sandbox verification run)
 
-This is **not** a benchmark of your production hardware — it's the result of a quick verification run in a lightweight sandbox environment, included only to show the tool is wired correctly end-to-end and to give a rough shape of what output to expect. Re-run this yourself on real hardware before drawing any real conclusions.
+This is **not** a benchmark of your production hardware — it's the result of a quick verification run in a lightweight sandbox environment, included only to show the tool is wired correctly end-to-end and to give a rough shape of what output to expect.
 
 ```
 locust -f load_test/locustfile.py --host http://localhost:8000 --headless -u 20 -r 5 -t 20s
@@ -89,4 +89,37 @@ locust -f load_test/locustfile.py --host http://localhost:8000 --headless -u 20 
 | `GET /` | 24 | 0 (0.00%) | 2 ms | 2 ms | 3 ms |
 | **Aggregated** | **302** | **0 (0.00%)** | **3 ms** | **12 ms** | **20 ms** |
 
-Zero failures at 20 concurrent users is a reasonable sign, but far from a real ceiling — it wasn't pushed anywhere near hard enough to find one.
+## Production results — real deployment (GHCR image, before multi-worker fix)
+
+Run against the actual deployed container. Full percentile breakdown for `POST /api/v1/predict`, the endpoint that matters:
+
+| Percentile | 50 users | 200 users |
+|---|---|---|
+| 50% (median) | 28 ms | 1400 ms |
+| 66% | 35 ms | 1400 ms |
+| 75% | 41 ms | 1500 ms |
+| 80% | 45 ms | 1500 ms |
+| 90% | 60 ms | 1600 ms |
+| 95% | 79 ms | 1600 ms |
+| 98% | 130 ms | 1700 ms |
+| 99% | **1000 ms** | 1700 ms |
+| 99.9% | 1200 ms | 2700 ms |
+| max | 1300 ms | 2800 ms |
+| Total requests | 4417 | 9467 |
+| `/predict` requests | 3156 | 6759 |
+
+### Diagnosis
+
+At 50 users, most requests are genuinely fast (p50=28ms, p95=79ms) — but there's a sharp cliff between p98 (130ms) and p99 (1000ms). At 200 users, the *entire* distribution shifted to ~1.4–1.7s — not just the tail. This pattern (fast baseline + a sudden cliff at moderate load, collapsing to uniformly slow at higher load) is the signature of requests **queueing for a limited thread pool**, not the model itself being slow — a single prediction takes low-single-digit milliseconds (see the sandbox baseline above).
+
+**Root cause:** `POST /api/v1/predict` is a synchronous `def` route, so FastAPI/Starlette runs it in a per-process thread pool capped at 40 concurrent threads by default. The Dockerfile ran a **single Uvicorn process**, meaning that 40-thread cap was the entire container's capacity, regardless of the host's actual CPU core count.
+
+### Fix applied
+
+`Dockerfile` now runs multiple Uvicorn worker processes (`--workers`, default 4, overridable via the `WORKERS` env var at `docker run` time). Multiple processes — not just more threads within one process — give real parallelism, since each has its own thread pool and Python's GIL is per-process, letting CPU-bound XGBoost inference actually run in parallel across cores.
+
+**Action item:** re-run both load levels (50 and 200 users) against the rebuilt image once redeployed, and update the table below with the results. Expected outcome: the p99 cliff at 50 users should mostly disappear, and the 200-user run should no longer show uniform ~1.5s latency across the whole distribution — though the exact numbers depend on how many CPU cores the actual host provides.
+
+<!-- TODO: replace this comment with a results table from a re-run against the multi-worker image -->
+
+Zero failures at any concurrency level tested so far is a good sign — no thread-safety issues surfaced in the model artifact singleton under load, even while queueing.

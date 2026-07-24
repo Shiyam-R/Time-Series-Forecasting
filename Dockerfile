@@ -103,7 +103,30 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
     CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)" || exit 1
 
-# Must be run as a module path (app.main:app) from /app, matching how the
-# project's imports resolve — see app/main.py's own docstring. This is the
-# same command you'd run locally with `uvicorn app.main:app --reload`.
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# WORKERS controls how many Uvicorn worker PROCESSES run inside this
+# container. This matters because app/api/routes.py's predict() is a
+# synchronous `def`, so FastAPI/Starlette runs it in a per-process thread
+# pool capped at 40 concurrent threads by default. A single worker process
+# means that cap is the ENTIRE container's request capacity, regardless of
+# how many CPU cores the host actually has — load testing confirmed this
+# directly: at 50 concurrent users, p99 latency for POST /api/v1/predict
+# cliffed from ~130ms (p98) to ~1000ms; at 200 concurrent users, the
+# ENTIRE distribution collapsed to ~1.4-1.7s, consistent with requests
+# queueing for threads rather than the model itself being slow (a single
+# prediction takes low-single-digit milliseconds — see load_test/
+# load_test_results.md for the full numbers and analysis).
+#
+# Multiple worker PROCESSES (not just threads) give real parallelism —
+# each has its own thread pool, and Python's GIL is per-process, so this
+# also lets CPU-bound XGBoost inference genuinely run in parallel across
+# cores, which more threads within one process could not do.
+#
+# Default of 4 is a reasonable starting point; override at `docker run`
+# time with `-e WORKERS=N` to match the actual host's core count (a
+# common rule of thumb is workers = (2 x cpu_cores) + 1).
+ENV WORKERS=4
+
+# Shell form (not exec-form JSON array) is required here so $WORKERS is
+# actually substituted at container start — exec form does not invoke a
+# shell and would pass the literal string "$WORKERS" to uvicorn.
+CMD uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers $WORKERS
