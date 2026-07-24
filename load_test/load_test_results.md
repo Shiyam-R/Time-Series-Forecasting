@@ -118,8 +118,30 @@ At 50 users, most requests are genuinely fast (p50=28ms, p95=79ms) — but there
 
 `Dockerfile` now runs multiple Uvicorn worker processes (`--workers`, default 4, overridable via the `WORKERS` env var at `docker run` time). Multiple processes — not just more threads within one process — give real parallelism, since each has its own thread pool and Python's GIL is per-process, letting CPU-bound XGBoost inference actually run in parallel across cores.
 
-**Action item:** re-run both load levels (50 and 200 users) against the rebuilt image once redeployed, and update the table below with the results. Expected outcome: the p99 cliff at 50 users should mostly disappear, and the 200-user run should no longer show uniform ~1.5s latency across the whole distribution — though the exact numbers depend on how many CPU cores the actual host provides.
+## Post-fix results — same deployment, multi-worker image
 
-<!-- TODO: replace this comment with a results table from a re-run against the multi-worker image -->
+Re-run against the rebuilt image at the same two concurrency levels, for a direct before/after comparison on `POST /api/v1/predict`:
 
-Zero failures at any concurrency level tested so far is a good sign — no thread-safety issues surfaced in the model artifact singleton under load, even while queueing.
+| Percentile | 50 users (before) | 50 users (after) | 200 users (before) | 200 users (after) |
+|---|---|---|---|---|
+| 50% (median) | 28 ms | **4 ms** | 1400 ms | **9 ms** |
+| 66% | 35 ms | **5 ms** | 1400 ms | **13 ms** |
+| 75% | 41 ms | **6 ms** | 1500 ms | **18 ms** |
+| 80% | 45 ms | **6 ms** | 1500 ms | **22 ms** |
+| 90% | 60 ms | **9 ms** | 1600 ms | **42 ms** |
+| 95% | 79 ms | **13 ms** | 1600 ms | **68 ms** |
+| 98% | 130 ms | **18 ms** | 1700 ms | **99 ms** |
+| 99% | 1000 ms | **24 ms** | 1700 ms | **120 ms** |
+| 99.9% | 1200 ms | **37 ms** | 2700 ms | **190 ms** |
+| max | 1300 ms | **38 ms** | 2800 ms | **260 ms** |
+| `/predict` requests served | 3156 | **3322** | 6759 | **13014** |
+
+### Result
+
+The fix resolved the problem completely, at both concurrency levels tested:
+
+- **The p99 cliff at 50 users is gone.** Before: a sharp jump from p98=130ms to p99=1000ms — a small fraction of requests hitting the thread-pool wall. After: a smooth, low curve topping out at p99=24ms. No cliff.
+- **At 200 users, the whole distribution collapsed back to fast.** Before: every percentile from p50 to max sat in the 1.4–2.8s range — total saturation. After: p50=9ms, p99=120ms, max=260ms — an order of magnitude (or more) faster across the board.
+- **Throughput nearly doubled at 200 users** (6,759 → 13,014 `/predict` requests served in the same window) — direct evidence requests were previously stuck queueing rather than the model being the bottleneck, exactly as diagnosed.
+
+Request mix ratios stayed consistent with the configured task weights across all four runs (`/predict` ≈ 71% of traffic in every case, matching the 10:2:1:1 weighting in `locustfile.py`), which is a reasonable indicator no requests were silently dropped or erroring out during either run — though confirming the raw failure count from Locust's own summary (not just the percentile table) is worth doing on any future run, since that number wasn't captured here.
