@@ -1,10 +1,10 @@
 {
-  "trained_at": "2026-07-19T06:16:36Z",
-  "git_commit": "2249422",
+  "trained_at": "2026-07-24T09:35:11Z",
+  "git_commit": "ddadb48",
   "training_data_start": "2013-01-01",
   "training_data_end": "2015-07-31",
   "training_rows": 844338,
-  "feature_count": 78,
+  "feature_count": 73,
   "xgboost_params": {
     "n_estimators": 500,
     "max_depth": 6,

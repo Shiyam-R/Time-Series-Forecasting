@@ -220,6 +220,21 @@ def get_feature_cols(df: pd.DataFrame) -> list:
         "StoreType", "Assortment", "StateHoliday",
         "CompetitionOpenSinceMonth", "CompetitionOpenSinceYear",
         "Promo2SinceWeek", "Promo2SinceYear", "PromoInterval",
+        # Raw Rossmann CSV columns duplicated by properly-engineered
+        # lowercase equivalents below. These must be excluded, not just
+        # left in: the live API (app/utils/feature_engineering.py) has no
+        # raw CSV row to copy them from at inference time — it only ever
+        # populates the engineered versions — so if these stay in the
+        # training feature set, every live prediction silently sends
+        # -9999 (missing sentinel) for all five, regardless of what the
+        # caller actually requested. This was a real, universal bug:
+        # "DayOfWeek" -> use "day_of_week" instead
+        # "Promo"     -> use "is_promo" instead
+        # "SchoolHoliday" -> use "is_school_holiday" instead
+        # "CompetitionDistance" -> use "competition_distance" instead
+        # "Promo2"    -> use "promo2" instead
+        "DayOfWeek", "Promo", "SchoolHoliday",
+        "CompetitionDistance", "Promo2",
     }
     return [c for c in df.columns if c not in exclude]
 
