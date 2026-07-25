@@ -28,6 +28,7 @@ from app.utils.preprocessing import (
     get_horizon_bucket,
     validate_store_id,
 )
+from app.utils.drift import record_request_features
 from app.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -101,6 +102,14 @@ class PredictionService:
 
         target_date = f"{request.year}-{request.month:02d}-{request.day:02d}"
         timestamp   = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+
+        # ── Record for drift monitoring (GET /drift) ──────────────────────────
+        # Deliberately isolated in its own try/except: monitoring must never
+        # break a real prediction request, even if it fails unexpectedly.
+        try:
+            record_request_features(artifacts.feature_columns, feature_vector[0].tolist())
+        except Exception as exc:
+            logger.warning("Drift buffer recording failed (non-fatal): %s", exc)
 
         logger.info(
             "Prediction complete — store=%s  date=%s  bucket=%s  predicted_sales=%.2f",

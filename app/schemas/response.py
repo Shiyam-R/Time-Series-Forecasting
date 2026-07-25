@@ -246,3 +246,55 @@ class VersionResponse(BaseModel):
         ),
         examples=["a1b2c3d"],
     )
+
+
+# ── GET /drift response ───────────────────────────────────────────────────────
+class DriftFeatureEntry(BaseModel):
+    """PSI drift result for a single feature."""
+
+    feature:     str   = Field(..., description="Feature column name.", examples=["lag_7"])
+    psi:         float = Field(..., description="Population Stability Index vs. the training reference distribution.", examples=[0.0342])
+    drift_level: Literal["none", "moderate", "significant"] = Field(
+        ...,
+        description="'none' if PSI < 0.10, 'moderate' if 0.10-0.25, 'significant' if >= 0.25.",
+        examples=["none"],
+    )
+
+
+class DriftResponse(BaseModel):
+    """
+    Response for GET /drift.
+
+    IMPORTANT SCOPE CAVEAT: the underlying request buffer is in-process
+    memory. Under a multi-worker deployment, each worker process has its
+    own separate buffer — this reflects only the traffic that happened to
+    land on whichever worker handled THIS specific request, not the whole
+    container's traffic, and it resets on every restart. See
+    app/utils/drift.py's module docstring for full context.
+    """
+
+    status: Literal["ok", "insufficient_data", "unavailable"] = Field(
+        ...,
+        description=(
+            "'ok' if drift was computed, 'insufficient_data' if the live "
+            "request buffer doesn't yet hold enough samples, 'unavailable' "
+            "if artifacts/feature_reference_stats.json was not found."
+        ),
+        examples=["ok"],
+    )
+    sample_size: int = Field(..., description="Number of live requests currently in this worker process's rolling buffer.", examples=[214])
+    window_capacity: int = Field(..., description="Maximum buffer size (oldest requests drop once full).", examples=[500])
+    overall_drift_level: Optional[Literal["none", "moderate", "significant"]] = Field(
+        default=None,
+        description="Worst drift_level across all evaluated features. None if status is not 'ok'.",
+        examples=["none"],
+    )
+    features: List[DriftFeatureEntry] = Field(
+        default_factory=list,
+        description="Top features by PSI, descending (capped — see features_evaluated for the full count scanned).",
+    )
+    features_evaluated: int = Field(
+        default=0,
+        description="Total number of features PSI was computed for (may exceed len(features) if the response list is capped).",
+        examples=[73],
+    )

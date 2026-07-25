@@ -54,10 +54,20 @@ CORS_ALLOWED_ORIGINS: List[str] = (
 API_TITLE       = "Rossmann Store Sales Forecasting API"
 API_VERSION     = "1.0.0"
 API_DESCRIPTION = (
-    "Production-quality multi-horizon sales forecasting API built on XGBoost. "
-    "Supports four forecast horizon buckets: Near (1–14 days), Mid (15–30), "
-    "Far (31–60), and Extended (61–90). "
-    "Feature engineering mirrors the fair multi-origin training pipeline exactly."
+    "Predicts daily store sales using a single global XGBoost model trained on "
+    "the Rossmann Store Sales dataset, with root-cause-driven interaction "
+    "features (store/holiday/weekend/promo combinations tied to diagnosed "
+    "error sources — see the project README for details).\n\n"
+    "## How to use\n"
+    "Send a POST request to **/api/v1/predict** with a store ID, target date, "
+    "and horizon. The API handles all feature engineering and returns a "
+    "predicted sales figure.\n\n"
+    "## Monitoring\n"
+    "**/health** reports whether all model artifacts are loaded. **/version** "
+    "reports build/deploy identity including when the current model was "
+    "trained. **/drift** reports feature-distribution drift (PSI) between "
+    "recent live requests and the training data — see that endpoint's own "
+    "description for an important scope caveat under multi-worker deployment."
 )
 
 
@@ -123,3 +133,20 @@ STATEHOLIDAY_ENCODING = {"0": 0, "a": 1, "b": 2, "c": 3}
 SPIKE_MONTHS = {4, 10, 11, 12}   # Apr, Oct, Nov, Dec
 STORE_652_SPIKE_MONTH_WEIGHTS = {11: 3, 12: 2, 2: 1}
 STORE_A_SPIKE_MONTH_WEIGHTS   = {11: 3, 12: 2, 10: 2, 2: 1, 4: 1}
+
+
+# ── Drift Monitoring (GET /drift) ─────────────────────────────────────────────
+# IMPORTANT SCOPE CAVEAT: the live request buffer is in-process memory. Under
+# a multi-worker deployment (see Dockerfile's WORKERS env var), each worker
+# process has its OWN separate buffer — /drift reflects only the traffic that
+# happened to land on whichever worker handled that specific /drift request,
+# not the whole container's traffic. This is a real, honestly-documented
+# limitation, not a bug — a process-wide view would need shared storage
+# (Redis, a small DB) which is out of scope for this project's current size.
+REFERENCE_STATS_FILE      = ARTIFACTS_DIR / "feature_reference_stats.json"
+DRIFT_WINDOW_SIZE         = 500   # max recent requests kept in the rolling buffer
+DRIFT_MIN_SAMPLES         = 30    # below this, PSI is too noisy to report
+DRIFT_BIN_COUNT           = 10    # quantile bins per feature, computed at training time
+DRIFT_PSI_MODERATE        = 0.10  # PSI below this: no significant drift
+DRIFT_PSI_SIGNIFICANT     = 0.25  # PSI at/above this: significant drift
+DRIFT_TOP_N_IN_RESPONSE   = 15    # cap response size; full list is still scanned

@@ -255,6 +255,64 @@ def _get_git_commit() -> str:
         return "unknown"
 
 
+def build_reference_distributions(X: pd.DataFrame, n_bins: int = 10,
+                                   categorical_max_unique: int = 10) -> dict:
+    """
+    Compute per-feature reference distributions from the training feature
+    matrix, for use by GET /drift (Population Stability Index / PSI
+    monitoring — see app/utils/drift.py).
+
+    Two binning strategies, chosen per-feature:
+
+    - CATEGORICAL (<= categorical_max_unique distinct training values —
+      covers binary flags like is_promo, is_weekend, and small encodings
+      like storetype_enc): bin by EXACT value, one bin per distinct value.
+      Quantile binning collapses a binary 0/1 feature into a single bin
+      spanning the whole range (numpy's histogram bins are right-closed on
+      the last bin), which would silently make PSI read 0 for that feature
+      regardless of real class-balance drift — exact-value binning is the
+      standard correct approach for categorical PSI.
+
+    - CONTINUOUS (everything else — lag values, rolling stats, competition
+      distance, etc.): quantile bins from the training data's own
+      distribution, so each bin holds ~1/n_bins of training rows by
+      construction. Bin proportions are the ACTUAL realized proportions,
+      not assumed uniform, since duplicate values (e.g. many rows sharing
+      the same lag default) can make bins uneven even from quantile edges.
+
+    Returns:
+        {feature_name: {"type": "categorical", "values": [...], "proportions": [...]}}
+        or
+        {feature_name: {"type": "continuous", "bin_edges": [...], "bin_proportions": [...]}}
+    """
+    reference = {}
+    quantile_points = np.linspace(0, 1, n_bins + 1)
+
+    for col in X.columns:
+        values = X[col].to_numpy(dtype=np.float64)
+        unique_vals = np.unique(values)
+
+        if len(unique_vals) <= categorical_max_unique:
+            counts = np.array([(values == v).sum() for v in unique_vals])
+            reference[col] = {
+                "type":        "categorical",
+                "values":      unique_vals.tolist(),
+                "proportions": (counts / counts.sum()).tolist(),
+            }
+        else:
+            edges = np.unique(np.quantile(values, quantile_points))
+            if len(edges) < 2:
+                edges = np.array([values.min() - 1e-6, values.max() + 1e-6])
+            counts, edges = np.histogram(values, bins=edges)
+            reference[col] = {
+                "type":            "continuous",
+                "bin_edges":       edges.tolist(),
+                "bin_proportions": (counts / counts.sum()).tolist(),
+            }
+
+    return reference
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     print("=" * 60)
@@ -319,6 +377,14 @@ if __name__ == "__main__":
     with open(metadata_path, "w") as f:
         json.dump(model_metadata, f, indent=2)
     print(f"  ✓ Model metadata saved  →  {metadata_path}")
+
+    # ── Reference distributions for drift monitoring (GET /drift) ────────────
+    print("\nComputing feature reference distributions for drift monitoring …")
+    reference_distributions = build_reference_distributions(X, n_bins=10)
+    reference_path = ARTIFACTS / "feature_reference_stats.json"
+    with open(reference_path, "w") as f:
+        json.dump(reference_distributions, f, indent=2)
+    print(f"  ✓ Reference distributions saved ({len(reference_distributions)} features)  →  {reference_path}")
 
     # Save feature columns
     feat_cols_path = ARTIFACTS / "feature_columns.json"

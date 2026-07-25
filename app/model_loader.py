@@ -33,6 +33,7 @@ from app.config import (
     STORE_METADATA_FILE,
     LAG_DEFAULTS_FILE,
     MODEL_METADATA_FILE,
+    REFERENCE_STATS_FILE,
     BUCKET_ORDER,
 )
 from app.exceptions import ArtifactLoadError, ModelNotLoadedError
@@ -53,6 +54,7 @@ class ModelArtifacts:
     store_metadata:  Dict[str, Dict]      = field(default_factory=dict)
     lag_defaults:    Dict[str, Dict]      = field(default_factory=dict)
     model_metadata:  Dict[str, Any]       = field(default_factory=dict)
+    reference_stats: Dict[str, Any]       = field(default_factory=dict)
     loaded:          bool                 = False
 
     def get_model(self, bucket: str):
@@ -181,12 +183,26 @@ def load_artifacts() -> ModelArtifacts:
             "trained_at/git_commit. Re-run script 16 to generate it."
         )
 
+    # ── Reference distributions (drift monitoring) ────────────────────────────
+    # Optional and non-fatal — older artifact sets predating this file will
+    # simply show GET /drift as status "unavailable".
+    ref_stats: Dict = {}
+    try:
+        ref_stats = _load_json(REFERENCE_STATS_FILE, "feature_reference_stats.json")
+        logger.info("  ✓ Reference distributions loaded  (%d features)", len(ref_stats))
+    except ArtifactLoadError:
+        logger.info(
+            "  · feature_reference_stats.json not found — GET /drift will "
+            "report 'unavailable'. Re-run script 16 to generate it."
+        )
+
     # ── Populate singleton ────────────────────────────────────────────────────
     artifacts.models          = loaded_models
     artifacts.feature_columns = feat_cols
     artifacts.store_metadata  = store_meta
     artifacts.lag_defaults    = lag_defs
     artifacts.model_metadata  = model_meta
+    artifacts.reference_stats = ref_stats
     artifacts.loaded          = True
 
     logger.info(

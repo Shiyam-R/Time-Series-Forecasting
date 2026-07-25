@@ -96,12 +96,13 @@ RUN mkdir -p /app/logs && chown -R appuser:appuser /app
 
 USER appuser
 
-EXPOSE 8000
-
-# Uses Python's own stdlib (urllib) instead of installing curl, keeping the
-# final image free of an extra package just for health probing.
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
-    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)" || exit 1
+# PORT is honored by most PaaS platforms (Render, Railway, Heroku, Cloud
+# Run) that inject their own port assignment at runtime — Render's default
+# is 10000. Defaulting to 8000 here means `docker run -p 8000:8000 ...`
+# locally, and everything else in this repo referencing port 8000 (the
+# HEALTHCHECK below, docs, load_test/), keeps working unchanged unless a
+# platform overrides it.
+ENV PORT=8000
 
 # WORKERS controls how many Uvicorn worker PROCESSES run inside this
 # container. This matters because app/api/routes.py's predict() is a
@@ -121,12 +122,25 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
 # also lets CPU-bound XGBoost inference genuinely run in parallel across
 # cores, which more threads within one process could not do.
 #
-# Default of 4 is a reasonable starting point; override at `docker run`
-# time with `-e WORKERS=N` to match the actual host's core count (a
-# common rule of thumb is workers = (2 x cpu_cores) + 1).
+# Default of 4 is a reasonable starting point for typical hardware, but
+# on a very constrained host (e.g. Render's free tier: 0.1 CPU), fewer
+# workers may perform better — process overhead competing for a fraction
+# of a core can outweigh the parallelism benefit. Override at `docker run`
+# / platform env-var config with WORKERS=N to tune for the actual host.
 ENV WORKERS=4
 
-# Shell form (not exec-form JSON array) is required here so $WORKERS is
+EXPOSE 8000
+
+# Reads $PORT for both the health probe and the actual bind — must stay in
+# sync with the CMD below. Uses Python's own stdlib (urllib) instead of
+# installing curl, keeping the final image free of an extra package just
+# for health probing.
+HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
+    CMD python -c "import os, urllib.request; urllib.request.urlopen('http://localhost:' + os.environ.get('PORT', '8000') + '/health', timeout=3)" || exit 1
+
+# Must be run as a module path (app.main:app) from /app, matching how the
+# project's imports resolve — see app/main.py's own docstring. Shell form
+# (not exec-form JSON array) is required so $PORT and $WORKERS are
 # actually substituted at container start — exec form does not invoke a
-# shell and would pass the literal string "$WORKERS" to uvicorn.
-CMD uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers $WORKERS
+# shell and would pass the literal strings "$PORT"/"$WORKERS" to uvicorn.
+CMD uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers $WORKERS

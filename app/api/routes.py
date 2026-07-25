@@ -26,10 +26,12 @@ from app.schemas.response import (
     HealthResponse,
     ModelStatus,
     VersionResponse,
+    DriftResponse,
     PredictionResponse,
     ErrorDetail,
 )
 from app.services.prediction_service import prediction_service
+from app.utils.drift import generate_drift_report
 from app.utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -54,6 +56,7 @@ def root() -> ProjectInfoResponse:
             "GET  /               — Project info",
             "GET  /health         — Health check",
             "GET  /version        — Build/deploy version",
+            "GET  /drift          — Feature drift report",
             "POST /api/v1/predict — Generate a sales forecast",
         ],
     )
@@ -113,6 +116,36 @@ def version() -> VersionResponse:
         trained_at    = artifacts.model_metadata.get("trained_at"),
         git_commit    = artifacts.model_metadata.get("git_commit"),
     )
+
+
+# ── GET /drift ────────────────────────────────────────────────────────────────
+@router.get(
+    "/drift",
+    response_model=DriftResponse,
+    summary="Feature drift report",
+    description=(
+        "Reports Population Stability Index (PSI) per feature, comparing "
+        "recent live prediction requests against the training data's "
+        "reference distribution. PSI < 0.10 = no significant drift, "
+        "0.10-0.25 = moderate, >= 0.25 = significant.\n\n"
+        "**Scope caveat:** the live-request buffer is in-process memory. "
+        "Under a multi-worker deployment, each worker process has its own "
+        "separate buffer — this reflects only the traffic that happened to "
+        "land on whichever worker handled THIS request, not the whole "
+        "container's traffic, and it resets on every restart.\n\n"
+        "**Lag features run an elevated PSI baseline by default:** if a "
+        "request doesn't supply lag_7/roll_7_mean/etc. overrides, it falls "
+        "back to that store's single static historical average, which has "
+        "less spread than the raw daily training distribution — expect "
+        "persistently nonzero PSI for lag_*/roll_* features unless callers "
+        "supply real recent-sales overrides. See app/utils/drift.py for "
+        "the full explanation."
+    ),
+    tags=["Monitoring"],
+)
+def drift() -> DriftResponse:
+    report = generate_drift_report(artifacts.reference_stats)
+    return DriftResponse(**report)
 
 
 # ── POST /api/v1/predict ──────────────────────────────────────────────────────
