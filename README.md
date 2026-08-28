@@ -2,7 +2,7 @@
 
 [![CI Pipeline](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml)
 
-**🔗 Live demo: [https://time-series-forecasting-4zn2.onrender.com/docs](https://https://time-series-forecasting-4zn2.onrender.com/docs)**
+**🔗 Live demo: [https://time-series-forecasting-4zn2.onrender.com/docs](https://time-series-forecasting-4zn2.onrender.com/docs)**
 
 A production-quality, multi-horizon sales forecasting system built on the [Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales) dataset — from raw-data preprocessing through a containerized, CI-tested FastAPI inference service.
 
