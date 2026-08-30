@@ -1,6 +1,6 @@
 {
-  "trained_at": "2026-07-24T11:35:23Z",
-  "git_commit": "6242dda",
+  "trained_at": "2026-08-30T07:27:10Z",
+  "git_commit": "5d1939f",
   "training_data_start": "2013-01-01",
   "training_data_end": "2015-07-31",
   "training_rows": 844338,

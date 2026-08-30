@@ -8,7 +8,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "2": {
     "StoreType": "a",
@@ -41,7 +41,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "5": {
     "StoreType": "a",
@@ -52,7 +52,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "6": {
     "StoreType": "a",
@@ -63,7 +63,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "7": {
     "StoreType": "a",
@@ -74,7 +74,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "8": {
     "StoreType": "a",
@@ -85,7 +85,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "9": {
     "StoreType": "a",
@@ -96,7 +96,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "10": {
     "StoreType": "a",
@@ -107,7 +107,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "11": {
     "StoreType": "a",
@@ -173,7 +173,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "17": {
     "StoreType": "a",
@@ -250,7 +250,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "24": {
     "StoreType": "a",
@@ -272,7 +272,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "26": {
     "StoreType": "d",
@@ -283,7 +283,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "27": {
     "StoreType": "a",
@@ -316,7 +316,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "30": {
     "StoreType": "a",
@@ -338,7 +338,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "32": {
     "StoreType": "a",
@@ -360,7 +360,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "34": {
     "StoreType": "c",
@@ -371,7 +371,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "35": {
     "StoreType": "d",
@@ -404,7 +404,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "38": {
     "StoreType": "d",
@@ -415,7 +415,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "39": {
     "StoreType": "a",
@@ -481,7 +481,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "45": {
     "StoreType": "d",
@@ -492,7 +492,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "46": {
     "StoreType": "c",
@@ -525,7 +525,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "49": {
     "StoreType": "d",
@@ -536,7 +536,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "50": {
     "StoreType": "d",
@@ -547,7 +547,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "51": {
     "StoreType": "a",
@@ -580,7 +580,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "54": {
     "StoreType": "d",
@@ -602,7 +602,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "56": {
     "StoreType": "d",
@@ -624,7 +624,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "58": {
     "StoreType": "a",
@@ -657,7 +657,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "61": {
     "StoreType": "a",
@@ -679,7 +679,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "63": {
     "StoreType": "c",
@@ -734,7 +734,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "68": {
     "StoreType": "a",
@@ -767,7 +767,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "71": {
     "StoreType": "a",
@@ -800,7 +800,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "74": {
     "StoreType": "a",
@@ -811,7 +811,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "75": {
     "StoreType": "d",
@@ -822,7 +822,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "76": {
     "StoreType": "d",
@@ -833,7 +833,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "77": {
     "StoreType": "d",
@@ -866,7 +866,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "80": {
     "StoreType": "d",
@@ -877,7 +877,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "81": {
     "StoreType": "a",
@@ -910,7 +910,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "84": {
     "StoreType": "a",
@@ -921,7 +921,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "85": {
     "StoreType": "b",
@@ -932,7 +932,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "86": {
     "StoreType": "a",
@@ -954,7 +954,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "88": {
     "StoreType": "a",
@@ -965,7 +965,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "89": {
     "StoreType": "a",
@@ -987,7 +987,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "91": {
     "StoreType": "c",
@@ -1031,7 +1031,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "95": {
     "StoreType": "a",
@@ -1042,7 +1042,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "96": {
     "StoreType": "a",
@@ -1064,7 +1064,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "98": {
     "StoreType": "d",
@@ -1097,7 +1097,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "101": {
     "StoreType": "d",
@@ -1130,7 +1130,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "104": {
     "StoreType": "a",
@@ -1141,7 +1141,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "105": {
     "StoreType": "a",
@@ -1163,7 +1163,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "107": {
     "StoreType": "a",
@@ -1174,7 +1174,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "108": {
     "StoreType": "d",
@@ -1185,7 +1185,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "109": {
     "StoreType": "a",
@@ -1196,7 +1196,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "110": {
     "StoreType": "a",
@@ -1207,7 +1207,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "111": {
     "StoreType": "d",
@@ -1229,7 +1229,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "113": {
     "StoreType": "d",
@@ -1240,7 +1240,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "114": {
     "StoreType": "c",
@@ -1273,7 +1273,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "117": {
     "StoreType": "a",
@@ -1284,7 +1284,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "118": {
     "StoreType": "d",
@@ -1295,7 +1295,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "119": {
     "StoreType": "a",
@@ -1306,7 +1306,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "120": {
     "StoreType": "d",
@@ -1339,7 +1339,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "123": {
     "StoreType": "a",
@@ -1350,7 +1350,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "124": {
     "StoreType": "a",
@@ -1361,7 +1361,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "125": {
     "StoreType": "a",
@@ -1372,7 +1372,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "126": {
     "StoreType": "d",
@@ -1438,7 +1438,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "132": {
     "StoreType": "d",
@@ -1471,7 +1471,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "135": {
     "StoreType": "d",
@@ -1515,7 +1515,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "139": {
     "StoreType": "a",
@@ -1559,7 +1559,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "143": {
     "StoreType": "d",
@@ -1570,7 +1570,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "144": {
     "StoreType": "a",
@@ -1581,7 +1581,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "145": {
     "StoreType": "a",
@@ -1614,7 +1614,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "148": {
     "StoreType": "a",
@@ -1625,7 +1625,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "149": {
     "StoreType": "d",
@@ -1647,7 +1647,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "151": {
     "StoreType": "d",
@@ -1658,7 +1658,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "152": {
     "StoreType": "a",
@@ -1669,7 +1669,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "153": {
     "StoreType": "a",
@@ -1691,7 +1691,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "155": {
     "StoreType": "d",
@@ -1724,7 +1724,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "158": {
     "StoreType": "d",
@@ -1746,7 +1746,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "160": {
     "StoreType": "d",
@@ -1757,7 +1757,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "161": {
     "StoreType": "a",
@@ -1768,7 +1768,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "162": {
     "StoreType": "d",
@@ -1790,7 +1790,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "164": {
     "StoreType": "a",
@@ -1834,7 +1834,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "168": {
     "StoreType": "a",
@@ -1845,7 +1845,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "169": {
     "StoreType": "d",
@@ -1878,7 +1878,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "172": {
     "StoreType": "a",
@@ -1900,7 +1900,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "174": {
     "StoreType": "a",
@@ -1922,7 +1922,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "176": {
     "StoreType": "a",
@@ -1933,7 +1933,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "177": {
     "StoreType": "a",
@@ -1955,7 +1955,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "179": {
     "StoreType": "a",
@@ -1966,7 +1966,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "180": {
     "StoreType": "d",
@@ -1977,7 +1977,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "181": {
     "StoreType": "a",
@@ -2010,7 +2010,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "184": {
     "StoreType": "d",
@@ -2021,7 +2021,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "185": {
     "StoreType": "d",
@@ -2032,7 +2032,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "186": {
     "StoreType": "a",
@@ -2054,7 +2054,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "188": {
     "StoreType": "d",
@@ -2076,7 +2076,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "190": {
     "StoreType": "a",
@@ -2120,7 +2120,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "194": {
     "StoreType": "d",
@@ -2142,7 +2142,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "196": {
     "StoreType": "c",
@@ -2164,7 +2164,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "198": {
     "StoreType": "a",
@@ -2197,7 +2197,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "201": {
     "StoreType": "d",
@@ -2219,7 +2219,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "203": {
     "StoreType": "c",
@@ -2230,7 +2230,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "204": {
     "StoreType": "a",
@@ -2252,7 +2252,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "206": {
     "StoreType": "a",
@@ -2274,7 +2274,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "208": {
     "StoreType": "c",
@@ -2285,7 +2285,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "209": {
     "StoreType": "a",
@@ -2318,7 +2318,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "212": {
     "StoreType": "a",
@@ -2329,7 +2329,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "213": {
     "StoreType": "d",
@@ -2384,7 +2384,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "218": {
     "StoreType": "a",
@@ -2406,7 +2406,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "220": {
     "StoreType": "a",
@@ -2417,7 +2417,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "221": {
     "StoreType": "d",
@@ -2428,7 +2428,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "222": {
     "StoreType": "a",
@@ -2439,7 +2439,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "223": {
     "StoreType": "d",
@@ -2472,7 +2472,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "226": {
     "StoreType": "a",
@@ -2483,7 +2483,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "227": {
     "StoreType": "a",
@@ -2494,7 +2494,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "228": {
     "StoreType": "d",
@@ -2527,7 +2527,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "231": {
     "StoreType": "d",
@@ -2560,7 +2560,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "234": {
     "StoreType": "d",
@@ -2571,7 +2571,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "235": {
     "StoreType": "a",
@@ -2593,7 +2593,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "237": {
     "StoreType": "a",
@@ -2604,7 +2604,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "238": {
     "StoreType": "a",
@@ -2626,7 +2626,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "240": {
     "StoreType": "a",
@@ -2637,7 +2637,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "241": {
     "StoreType": "d",
@@ -2648,7 +2648,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "242": {
     "StoreType": "d",
@@ -2692,7 +2692,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "246": {
     "StoreType": "c",
@@ -2703,7 +2703,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "247": {
     "StoreType": "d",
@@ -2736,7 +2736,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "250": {
     "StoreType": "d",
@@ -2758,7 +2758,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "252": {
     "StoreType": "d",
@@ -2824,7 +2824,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "258": {
     "StoreType": "a",
@@ -2846,7 +2846,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "260": {
     "StoreType": "a",
@@ -2857,7 +2857,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "261": {
     "StoreType": "d",
@@ -2879,7 +2879,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "263": {
     "StoreType": "a",
@@ -2901,7 +2901,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "265": {
     "StoreType": "a",
@@ -2934,7 +2934,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "268": {
     "StoreType": "a",
@@ -2945,7 +2945,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "269": {
     "StoreType": "a",
@@ -2956,7 +2956,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "270": {
     "StoreType": "a",
@@ -2967,7 +2967,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "271": {
     "StoreType": "a",
@@ -3000,7 +3000,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "274": {
     "StoreType": "b",
@@ -3055,7 +3055,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "279": {
     "StoreType": "d",
@@ -3088,7 +3088,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "282": {
     "StoreType": "a",
@@ -3099,7 +3099,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "283": {
     "StoreType": "a",
@@ -3132,7 +3132,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "286": {
     "StoreType": "a",
@@ -3143,7 +3143,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "287": {
     "StoreType": "c",
@@ -3176,7 +3176,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "290": {
     "StoreType": "a",
@@ -3187,7 +3187,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "291": {
     "StoreType": "d",
@@ -3198,7 +3198,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "292": {
     "StoreType": "a",
@@ -3209,7 +3209,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "293": {
     "StoreType": "c",
@@ -3220,7 +3220,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "294": {
     "StoreType": "a",
@@ -3231,7 +3231,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "295": {
     "StoreType": "a",
@@ -3264,7 +3264,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "298": {
     "StoreType": "d",
@@ -3275,7 +3275,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "299": {
     "StoreType": "d",
@@ -3286,7 +3286,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "300": {
     "StoreType": "a",
@@ -3308,7 +3308,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "302": {
     "StoreType": "d",
@@ -3341,7 +3341,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "305": {
     "StoreType": "c",
@@ -3374,7 +3374,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "308": {
     "StoreType": "a",
@@ -3418,7 +3418,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "312": {
     "StoreType": "d",
@@ -3429,7 +3429,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "313": {
     "StoreType": "d",
@@ -3440,7 +3440,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "314": {
     "StoreType": "a",
@@ -3462,7 +3462,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "316": {
     "StoreType": "d",
@@ -3473,7 +3473,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "317": {
     "StoreType": "d",
@@ -3495,7 +3495,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "319": {
     "StoreType": "a",
@@ -3517,7 +3517,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "321": {
     "StoreType": "c",
@@ -3594,7 +3594,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "328": {
     "StoreType": "a",
@@ -3605,7 +3605,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "329": {
     "StoreType": "a",
@@ -3649,7 +3649,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "333": {
     "StoreType": "a",
@@ -3660,7 +3660,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "334": {
     "StoreType": "d",
@@ -3693,7 +3693,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "337": {
     "StoreType": "d",
@@ -3737,7 +3737,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "341": {
     "StoreType": "a",
@@ -3748,7 +3748,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "342": {
     "StoreType": "d",
@@ -3803,7 +3803,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "347": {
     "StoreType": "d",
@@ -3836,7 +3836,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "350": {
     "StoreType": "d",
@@ -3891,7 +3891,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "355": {
     "StoreType": "a",
@@ -3902,7 +3902,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "356": {
     "StoreType": "d",
@@ -3924,7 +3924,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "358": {
     "StoreType": "a",
@@ -3935,7 +3935,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "359": {
     "StoreType": "d",
@@ -3946,7 +3946,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "360": {
     "StoreType": "a",
@@ -3957,7 +3957,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "361": {
     "StoreType": "c",
@@ -3979,7 +3979,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "363": {
     "StoreType": "a",
@@ -3990,7 +3990,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "364": {
     "StoreType": "a",
@@ -4023,7 +4023,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "367": {
     "StoreType": "d",
@@ -4034,7 +4034,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "368": {
     "StoreType": "d",
@@ -4056,7 +4056,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "370": {
     "StoreType": "d",
@@ -4111,7 +4111,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "375": {
     "StoreType": "a",
@@ -4133,7 +4133,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "377": {
     "StoreType": "a",
@@ -4155,7 +4155,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "379": {
     "StoreType": "d",
@@ -4166,7 +4166,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "380": {
     "StoreType": "a",
@@ -4199,7 +4199,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "383": {
     "StoreType": "a",
@@ -4210,7 +4210,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "384": {
     "StoreType": "a",
@@ -4232,7 +4232,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "386": {
     "StoreType": "d",
@@ -4265,7 +4265,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "389": {
     "StoreType": "a",
@@ -4276,7 +4276,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "390": {
     "StoreType": "a",
@@ -4287,7 +4287,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "391": {
     "StoreType": "a",
@@ -4309,7 +4309,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "393": {
     "StoreType": "d",
@@ -4320,7 +4320,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "394": {
     "StoreType": "d",
@@ -4331,7 +4331,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "395": {
     "StoreType": "a",
@@ -4342,7 +4342,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "396": {
     "StoreType": "a",
@@ -4353,7 +4353,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "397": {
     "StoreType": "a",
@@ -4430,7 +4430,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "404": {
     "StoreType": "a",
@@ -4518,7 +4518,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "412": {
     "StoreType": "d",
@@ -4540,7 +4540,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "414": {
     "StoreType": "d",
@@ -4562,7 +4562,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "416": {
     "StoreType": "a",
@@ -4573,7 +4573,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "417": {
     "StoreType": "a",
@@ -4606,7 +4606,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "420": {
     "StoreType": "d",
@@ -4639,7 +4639,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "423": {
     "StoreType": "b",
@@ -4650,7 +4650,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "424": {
     "StoreType": "d",
@@ -4672,7 +4672,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "426": {
     "StoreType": "a",
@@ -4683,7 +4683,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "427": {
     "StoreType": "a",
@@ -4727,7 +4727,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "431": {
     "StoreType": "d",
@@ -4738,7 +4738,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "432": {
     "StoreType": "a",
@@ -4749,7 +4749,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "433": {
     "StoreType": "a",
@@ -4760,7 +4760,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "434": {
     "StoreType": "a",
@@ -4782,7 +4782,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "436": {
     "StoreType": "d",
@@ -4793,7 +4793,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "437": {
     "StoreType": "c",
@@ -4826,7 +4826,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "440": {
     "StoreType": "d",
@@ -4848,7 +4848,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "442": {
     "StoreType": "c",
@@ -4870,7 +4870,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "444": {
     "StoreType": "c",
@@ -4881,7 +4881,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "445": {
     "StoreType": "a",
@@ -4892,7 +4892,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "446": {
     "StoreType": "a",
@@ -4914,7 +4914,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "448": {
     "StoreType": "a",
@@ -4925,7 +4925,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "449": {
     "StoreType": "a",
@@ -4980,7 +4980,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "454": {
     "StoreType": "a",
@@ -4991,7 +4991,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "455": {
     "StoreType": "d",
@@ -5002,7 +5002,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "456": {
     "StoreType": "a",
@@ -5013,7 +5013,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "457": {
     "StoreType": "d",
@@ -5035,7 +5035,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "459": {
     "StoreType": "a",
@@ -5057,7 +5057,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "461": {
     "StoreType": "d",
@@ -5079,7 +5079,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "463": {
     "StoreType": "a",
@@ -5090,7 +5090,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "464": {
     "StoreType": "c",
@@ -5101,7 +5101,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "465": {
     "StoreType": "d",
@@ -5112,7 +5112,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "466": {
     "StoreType": "a",
@@ -5123,7 +5123,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "467": {
     "StoreType": "a",
@@ -5134,7 +5134,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "468": {
     "StoreType": "c",
@@ -5145,7 +5145,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "469": {
     "StoreType": "c",
@@ -5156,7 +5156,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "470": {
     "StoreType": "a",
@@ -5167,7 +5167,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "471": {
     "StoreType": "d",
@@ -5189,7 +5189,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "473": {
     "StoreType": "a",
@@ -5200,7 +5200,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "474": {
     "StoreType": "c",
@@ -5222,7 +5222,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "476": {
     "StoreType": "d",
@@ -5233,7 +5233,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "477": {
     "StoreType": "d",
@@ -5255,7 +5255,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "479": {
     "StoreType": "a",
@@ -5277,7 +5277,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "481": {
     "StoreType": "c",
@@ -5299,7 +5299,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "483": {
     "StoreType": "a",
@@ -5321,7 +5321,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "485": {
     "StoreType": "d",
@@ -5365,7 +5365,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "489": {
     "StoreType": "a",
@@ -5431,7 +5431,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "495": {
     "StoreType": "d",
@@ -5453,7 +5453,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "497": {
     "StoreType": "a",
@@ -5464,7 +5464,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "498": {
     "StoreType": "a",
@@ -5508,7 +5508,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "502": {
     "StoreType": "a",
@@ -5541,7 +5541,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "505": {
     "StoreType": "a",
@@ -5607,7 +5607,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "511": {
     "StoreType": "a",
@@ -5618,7 +5618,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "512": {
     "StoreType": "b",
@@ -5640,7 +5640,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "514": {
     "StoreType": "c",
@@ -5684,7 +5684,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "518": {
     "StoreType": "d",
@@ -5750,7 +5750,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "524": {
     "StoreType": "a",
@@ -5761,7 +5761,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "525": {
     "StoreType": "d",
@@ -5772,7 +5772,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "526": {
     "StoreType": "a",
@@ -5794,7 +5794,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "528": {
     "StoreType": "a",
@@ -5816,7 +5816,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "530": {
     "StoreType": "a",
@@ -5827,7 +5827,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "531": {
     "StoreType": "a",
@@ -5838,7 +5838,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "532": {
     "StoreType": "a",
@@ -5849,7 +5849,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "533": {
     "StoreType": "a",
@@ -5860,7 +5860,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "534": {
     "StoreType": "d",
@@ -5882,7 +5882,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "536": {
     "StoreType": "a",
@@ -5915,7 +5915,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "539": {
     "StoreType": "a",
@@ -5948,7 +5948,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "542": {
     "StoreType": "a",
@@ -5970,7 +5970,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "544": {
     "StoreType": "a",
@@ -6003,7 +6003,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "547": {
     "StoreType": "d",
@@ -6025,7 +6025,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "549": {
     "StoreType": "a",
@@ -6036,7 +6036,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "550": {
     "StoreType": "d",
@@ -6047,7 +6047,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "551": {
     "StoreType": "a",
@@ -6058,7 +6058,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "552": {
     "StoreType": "a",
@@ -6091,7 +6091,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "555": {
     "StoreType": "d",
@@ -6113,7 +6113,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "557": {
     "StoreType": "a",
@@ -6124,7 +6124,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "558": {
     "StoreType": "a",
@@ -6135,7 +6135,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "559": {
     "StoreType": "d",
@@ -6157,7 +6157,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "561": {
     "StoreType": "d",
@@ -6168,7 +6168,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "562": {
     "StoreType": "b",
@@ -6179,7 +6179,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "563": {
     "StoreType": "a",
@@ -6212,7 +6212,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "566": {
     "StoreType": "a",
@@ -6256,7 +6256,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "570": {
     "StoreType": "a",
@@ -6267,7 +6267,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "571": {
     "StoreType": "d",
@@ -6311,7 +6311,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "575": {
     "StoreType": "a",
@@ -6333,7 +6333,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "577": {
     "StoreType": "a",
@@ -6355,7 +6355,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "579": {
     "StoreType": "c",
@@ -6366,7 +6366,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "580": {
     "StoreType": "a",
@@ -6377,7 +6377,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "581": {
     "StoreType": "a",
@@ -6388,7 +6388,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "582": {
     "StoreType": "a",
@@ -6399,7 +6399,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "583": {
     "StoreType": "a",
@@ -6410,7 +6410,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "584": {
     "StoreType": "d",
@@ -6432,7 +6432,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "586": {
     "StoreType": "a",
@@ -6443,7 +6443,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "587": {
     "StoreType": "d",
@@ -6465,7 +6465,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "589": {
     "StoreType": "a",
@@ -6509,7 +6509,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "593": {
     "StoreType": "a",
@@ -6520,7 +6520,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "594": {
     "StoreType": "a",
@@ -6531,7 +6531,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "595": {
     "StoreType": "c",
@@ -6542,7 +6542,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "596": {
     "StoreType": "c",
@@ -6553,7 +6553,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "597": {
     "StoreType": "a",
@@ -6586,7 +6586,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "600": {
     "StoreType": "d",
@@ -6641,7 +6641,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "605": {
     "StoreType": "d",
@@ -6663,7 +6663,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "607": {
     "StoreType": "a",
@@ -6696,7 +6696,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "610": {
     "StoreType": "a",
@@ -6707,7 +6707,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "611": {
     "StoreType": "a",
@@ -6751,7 +6751,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "615": {
     "StoreType": "d",
@@ -6762,7 +6762,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "616": {
     "StoreType": "a",
@@ -6795,7 +6795,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "619": {
     "StoreType": "a",
@@ -6828,7 +6828,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "622": {
     "StoreType": "a",
@@ -6839,7 +6839,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "623": {
     "StoreType": "a",
@@ -6861,7 +6861,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "625": {
     "StoreType": "a",
@@ -6883,7 +6883,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "627": {
     "StoreType": "c",
@@ -6894,7 +6894,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "628": {
     "StoreType": "a",
@@ -6905,7 +6905,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "629": {
     "StoreType": "d",
@@ -6927,7 +6927,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "631": {
     "StoreType": "d",
@@ -6949,7 +6949,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "633": {
     "StoreType": "d",
@@ -6971,7 +6971,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "635": {
     "StoreType": "a",
@@ -6982,7 +6982,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "636": {
     "StoreType": "c",
@@ -7015,7 +7015,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "639": {
     "StoreType": "a",
@@ -7026,7 +7026,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "640": {
     "StoreType": "d",
@@ -7037,7 +7037,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "641": {
     "StoreType": "a",
@@ -7103,7 +7103,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "647": {
     "StoreType": "a",
@@ -7114,7 +7114,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "648": {
     "StoreType": "d",
@@ -7125,7 +7125,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "649": {
     "StoreType": "a",
@@ -7136,7 +7136,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "650": {
     "StoreType": "a",
@@ -7158,7 +7158,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "652": {
     "StoreType": "a",
@@ -7169,7 +7169,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "653": {
     "StoreType": "d",
@@ -7191,7 +7191,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "655": {
     "StoreType": "d",
@@ -7246,7 +7246,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "660": {
     "StoreType": "a",
@@ -7268,7 +7268,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "662": {
     "StoreType": "d",
@@ -7279,7 +7279,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "663": {
     "StoreType": "a",
@@ -7290,7 +7290,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "664": {
     "StoreType": "d",
@@ -7301,7 +7301,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "665": {
     "StoreType": "a",
@@ -7334,7 +7334,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "668": {
     "StoreType": "c",
@@ -7345,7 +7345,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "669": {
     "StoreType": "d",
@@ -7389,7 +7389,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "673": {
     "StoreType": "d",
@@ -7433,7 +7433,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "677": {
     "StoreType": "d",
@@ -7466,7 +7466,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "680": {
     "StoreType": "c",
@@ -7499,7 +7499,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "683": {
     "StoreType": "a",
@@ -7510,7 +7510,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "684": {
     "StoreType": "d",
@@ -7543,7 +7543,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "687": {
     "StoreType": "d",
@@ -7554,7 +7554,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "688": {
     "StoreType": "a",
@@ -7576,7 +7576,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "690": {
     "StoreType": "a",
@@ -7587,7 +7587,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "691": {
     "StoreType": "d",
@@ -7609,7 +7609,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "693": {
     "StoreType": "d",
@@ -7653,7 +7653,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "697": {
     "StoreType": "d",
@@ -7675,7 +7675,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "699": {
     "StoreType": "a",
@@ -7730,7 +7730,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "704": {
     "StoreType": "d",
@@ -7741,7 +7741,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "705": {
     "StoreType": "a",
@@ -7774,7 +7774,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "708": {
     "StoreType": "c",
@@ -7796,7 +7796,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "710": {
     "StoreType": "d",
@@ -7862,7 +7862,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "716": {
     "StoreType": "d",
@@ -7895,7 +7895,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "719": {
     "StoreType": "c",
@@ -7939,7 +7939,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "723": {
     "StoreType": "d",
@@ -7961,7 +7961,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "725": {
     "StoreType": "d",
@@ -7972,7 +7972,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "726": {
     "StoreType": "a",
@@ -7983,7 +7983,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "727": {
     "StoreType": "a",
@@ -7994,7 +7994,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "728": {
     "StoreType": "d",
@@ -8016,7 +8016,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "730": {
     "StoreType": "c",
@@ -8027,7 +8027,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "731": {
     "StoreType": "a",
@@ -8049,7 +8049,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "733": {
     "StoreType": "b",
@@ -8060,7 +8060,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "734": {
     "StoreType": "a",
@@ -8082,7 +8082,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "736": {
     "StoreType": "c",
@@ -8115,7 +8115,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "739": {
     "StoreType": "d",
@@ -8137,7 +8137,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "741": {
     "StoreType": "d",
@@ -8148,7 +8148,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "742": {
     "StoreType": "d",
@@ -8159,7 +8159,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "743": {
     "StoreType": "a",
@@ -8214,7 +8214,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "748": {
     "StoreType": "d",
@@ -8258,7 +8258,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "752": {
     "StoreType": "a",
@@ -8302,7 +8302,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "756": {
     "StoreType": "a",
@@ -8324,7 +8324,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "758": {
     "StoreType": "a",
@@ -8335,7 +8335,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "759": {
     "StoreType": "a",
@@ -8357,7 +8357,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "761": {
     "StoreType": "a",
@@ -8368,7 +8368,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "762": {
     "StoreType": "d",
@@ -8390,7 +8390,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "764": {
     "StoreType": "a",
@@ -8423,7 +8423,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "767": {
     "StoreType": "a",
@@ -8434,7 +8434,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "768": {
     "StoreType": "a",
@@ -8445,7 +8445,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "769": {
     "StoreType": "b",
@@ -8467,7 +8467,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "771": {
     "StoreType": "a",
@@ -8478,7 +8478,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "772": {
     "StoreType": "d",
@@ -8489,7 +8489,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "773": {
     "StoreType": "a",
@@ -8500,7 +8500,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "774": {
     "StoreType": "a",
@@ -8511,7 +8511,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "775": {
     "StoreType": "d",
@@ -8566,7 +8566,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "780": {
     "StoreType": "a",
@@ -8577,7 +8577,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "781": {
     "StoreType": "a",
@@ -8588,7 +8588,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "782": {
     "StoreType": "c",
@@ -8610,7 +8610,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "784": {
     "StoreType": "a",
@@ -8654,7 +8654,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "788": {
     "StoreType": "a",
@@ -8665,7 +8665,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "789": {
     "StoreType": "a",
@@ -8676,7 +8676,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "790": {
     "StoreType": "d",
@@ -8687,7 +8687,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "791": {
     "StoreType": "a",
@@ -8698,7 +8698,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "792": {
     "StoreType": "d",
@@ -8720,7 +8720,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "794": {
     "StoreType": "c",
@@ -8731,7 +8731,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "795": {
     "StoreType": "d",
@@ -8753,7 +8753,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "797": {
     "StoreType": "a",
@@ -8775,7 +8775,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "799": {
     "StoreType": "a",
@@ -8786,7 +8786,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "800": {
     "StoreType": "d",
@@ -8797,7 +8797,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "801": {
     "StoreType": "d",
@@ -8808,7 +8808,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "802": {
     "StoreType": "a",
@@ -8874,7 +8874,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "808": {
     "StoreType": "a",
@@ -8896,7 +8896,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "810": {
     "StoreType": "d",
@@ -8907,7 +8907,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "811": {
     "StoreType": "a",
@@ -8918,7 +8918,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "812": {
     "StoreType": "d",
@@ -8929,7 +8929,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "813": {
     "StoreType": "a",
@@ -8940,7 +8940,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "814": {
     "StoreType": "d",
@@ -8951,7 +8951,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "815": {
     "StoreType": "a",
@@ -8973,7 +8973,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "817": {
     "StoreType": "a",
@@ -8984,7 +8984,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "818": {
     "StoreType": "d",
@@ -9006,7 +9006,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "820": {
     "StoreType": "a",
@@ -9028,7 +9028,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "822": {
     "StoreType": "a",
@@ -9050,7 +9050,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "824": {
     "StoreType": "a",
@@ -9061,7 +9061,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "825": {
     "StoreType": "a",
@@ -9083,7 +9083,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "827": {
     "StoreType": "a",
@@ -9094,7 +9094,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "828": {
     "StoreType": "d",
@@ -9105,7 +9105,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "829": {
     "StoreType": "c",
@@ -9116,7 +9116,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "830": {
     "StoreType": "a",
@@ -9138,7 +9138,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "832": {
     "StoreType": "d",
@@ -9171,7 +9171,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "835": {
     "StoreType": "a",
@@ -9193,7 +9193,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "837": {
     "StoreType": "a",
@@ -9204,7 +9204,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "838": {
     "StoreType": "d",
@@ -9226,7 +9226,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "840": {
     "StoreType": "a",
@@ -9237,7 +9237,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "841": {
     "StoreType": "a",
@@ -9248,7 +9248,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "842": {
     "StoreType": "d",
@@ -9259,7 +9259,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "843": {
     "StoreType": "c",
@@ -9270,7 +9270,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "844": {
     "StoreType": "a",
@@ -9336,7 +9336,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "850": {
     "StoreType": "d",
@@ -9380,7 +9380,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "854": {
     "StoreType": "c",
@@ -9413,7 +9413,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "857": {
     "StoreType": "c",
@@ -9446,7 +9446,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "860": {
     "StoreType": "c",
@@ -9457,7 +9457,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "861": {
     "StoreType": "c",
@@ -9490,7 +9490,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "864": {
     "StoreType": "a",
@@ -9512,7 +9512,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "866": {
     "StoreType": "d",
@@ -9534,7 +9534,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "868": {
     "StoreType": "d",
@@ -9567,7 +9567,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "871": {
     "StoreType": "d",
@@ -9578,7 +9578,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "872": {
     "StoreType": "a",
@@ -9600,7 +9600,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "874": {
     "StoreType": "a",
@@ -9611,7 +9611,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "875": {
     "StoreType": "d",
@@ -9644,7 +9644,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "878": {
     "StoreType": "d",
@@ -9655,7 +9655,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "879": {
     "StoreType": "d",
@@ -9677,7 +9677,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "881": {
     "StoreType": "a",
@@ -9699,7 +9699,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "883": {
     "StoreType": "a",
@@ -9710,7 +9710,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "884": {
     "StoreType": "d",
@@ -9721,7 +9721,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "885": {
     "StoreType": "a",
@@ -9732,7 +9732,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "886": {
     "StoreType": "a",
@@ -9743,7 +9743,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "887": {
     "StoreType": "d",
@@ -9776,7 +9776,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "890": {
     "StoreType": "a",
@@ -9809,7 +9809,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "893": {
     "StoreType": "a",
@@ -9831,7 +9831,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "895": {
     "StoreType": "a",
@@ -9842,7 +9842,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "896": {
     "StoreType": "a",
@@ -9853,7 +9853,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "897": {
     "StoreType": "c",
@@ -9875,7 +9875,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "899": {
     "StoreType": "d",
@@ -9908,7 +9908,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "902": {
     "StoreType": "a",
@@ -9930,7 +9930,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "904": {
     "StoreType": "d",
@@ -9952,7 +9952,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "906": {
     "StoreType": "a",
@@ -9963,7 +9963,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "907": {
     "StoreType": "a",
@@ -9974,7 +9974,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "908": {
     "StoreType": "a",
@@ -10018,7 +10018,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "912": {
     "StoreType": "c",
@@ -10029,7 +10029,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "913": {
     "StoreType": "a",
@@ -10040,7 +10040,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "914": {
     "StoreType": "c",
@@ -10073,7 +10073,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "917": {
     "StoreType": "a",
@@ -10084,7 +10084,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "918": {
     "StoreType": "a",
@@ -10095,7 +10095,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "919": {
     "StoreType": "a",
@@ -10128,7 +10128,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "922": {
     "StoreType": "d",
@@ -10139,7 +10139,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "923": {
     "StoreType": "a",
@@ -10150,7 +10150,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "924": {
     "StoreType": "a",
@@ -10194,7 +10194,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "928": {
     "StoreType": "d",
@@ -10216,7 +10216,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "930": {
     "StoreType": "a",
@@ -10227,7 +10227,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "931": {
     "StoreType": "a",
@@ -10260,7 +10260,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "934": {
     "StoreType": "a",
@@ -10282,7 +10282,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "936": {
     "StoreType": "a",
@@ -10293,7 +10293,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "937": {
     "StoreType": "d",
@@ -10315,7 +10315,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "939": {
     "StoreType": "d",
@@ -10326,7 +10326,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "940": {
     "StoreType": "d",
@@ -10337,7 +10337,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "941": {
     "StoreType": "a",
@@ -10370,7 +10370,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "944": {
     "StoreType": "c",
@@ -10381,7 +10381,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "945": {
     "StoreType": "a",
@@ -10392,7 +10392,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "946": {
     "StoreType": "a",
@@ -10425,7 +10425,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "949": {
     "StoreType": "a",
@@ -10436,7 +10436,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "950": {
     "StoreType": "a",
@@ -10447,7 +10447,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "951": {
     "StoreType": "d",
@@ -10469,7 +10469,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "953": {
     "StoreType": "a",
@@ -10524,7 +10524,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "958": {
     "StoreType": "a",
@@ -10535,7 +10535,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "959": {
     "StoreType": "a",
@@ -10546,7 +10546,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "960": {
     "StoreType": "d",
@@ -10568,7 +10568,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "962": {
     "StoreType": "c",
@@ -10579,7 +10579,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "963": {
     "StoreType": "a",
@@ -10590,7 +10590,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "964": {
     "StoreType": "a",
@@ -10612,7 +10612,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "966": {
     "StoreType": "a",
@@ -10623,7 +10623,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "967": {
     "StoreType": "a",
@@ -10645,7 +10645,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "969": {
     "StoreType": "a",
@@ -10689,7 +10689,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "973": {
     "StoreType": "d",
@@ -10733,7 +10733,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "977": {
     "StoreType": "a",
@@ -10755,7 +10755,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "979": {
     "StoreType": "a",
@@ -10777,7 +10777,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "981": {
     "StoreType": "d",
@@ -10788,7 +10788,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "982": {
     "StoreType": "d",
@@ -10799,7 +10799,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "983": {
     "StoreType": "a",
@@ -10854,7 +10854,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "988": {
     "StoreType": "a",
@@ -10865,7 +10865,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "989": {
     "StoreType": "a",
@@ -10887,7 +10887,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "991": {
     "StoreType": "a",
@@ -10898,7 +10898,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "992": {
     "StoreType": "a",
@@ -10909,7 +10909,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "993": {
     "StoreType": "d",
@@ -10942,7 +10942,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "996": {
     "StoreType": "c",
@@ -11019,7 +11019,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1003": {
     "StoreType": "a",
@@ -11052,7 +11052,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1006": {
     "StoreType": "c",
@@ -11074,7 +11074,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1008": {
     "StoreType": "a",
@@ -11085,7 +11085,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1009": {
     "StoreType": "a",
@@ -11184,7 +11184,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1018": {
     "StoreType": "c",
@@ -11195,7 +11195,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1019": {
     "StoreType": "d",
@@ -11217,7 +11217,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1021": {
     "StoreType": "a",
@@ -11228,7 +11228,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1022": {
     "StoreType": "a",
@@ -11239,7 +11239,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1023": {
     "StoreType": "c",
@@ -11261,7 +11261,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1025": {
     "StoreType": "a",
@@ -11272,7 +11272,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1026": {
     "StoreType": "c",
@@ -11316,7 +11316,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1030": {
     "StoreType": "a",
@@ -11327,7 +11327,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1031": {
     "StoreType": "d",
@@ -11338,7 +11338,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1032": {
     "StoreType": "d",
@@ -11360,7 +11360,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1034": {
     "StoreType": "a",
@@ -11371,7 +11371,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1035": {
     "StoreType": "a",
@@ -11382,7 +11382,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1036": {
     "StoreType": "d",
@@ -11404,7 +11404,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1038": {
     "StoreType": "d",
@@ -11415,7 +11415,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1039": {
     "StoreType": "a",
@@ -11470,7 +11470,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1044": {
     "StoreType": "c",
@@ -11492,7 +11492,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1046": {
     "StoreType": "d",
@@ -11503,7 +11503,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1047": {
     "StoreType": "a",
@@ -11580,7 +11580,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1054": {
     "StoreType": "a",
@@ -11602,7 +11602,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1056": {
     "StoreType": "d",
@@ -11624,7 +11624,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1058": {
     "StoreType": "a",
@@ -11646,7 +11646,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1060": {
     "StoreType": "a",
@@ -11668,7 +11668,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1062": {
     "StoreType": "d",
@@ -11690,7 +11690,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1064": {
     "StoreType": "a",
@@ -11701,7 +11701,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1065": {
     "StoreType": "a",
@@ -11723,7 +11723,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1067": {
     "StoreType": "d",
@@ -11734,7 +11734,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1068": {
     "StoreType": "d",
@@ -11767,7 +11767,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1071": {
     "StoreType": "a",
@@ -11822,7 +11822,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1076": {
     "StoreType": "a",
@@ -11888,7 +11888,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1082": {
     "StoreType": "c",
@@ -11899,7 +11899,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1083": {
     "StoreType": "d",
@@ -11932,7 +11932,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1086": {
     "StoreType": "a",
@@ -11954,7 +11954,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1088": {
     "StoreType": "a",
@@ -11976,7 +11976,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1090": {
     "StoreType": "a",
@@ -11998,7 +11998,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1092": {
     "StoreType": "a",
@@ -12020,7 +12020,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1094": {
     "StoreType": "d",
@@ -12064,7 +12064,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1098": {
     "StoreType": "a",
@@ -12075,7 +12075,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1099": {
     "StoreType": "a",
@@ -12108,7 +12108,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1102": {
     "StoreType": "a",
@@ -12185,7 +12185,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1109": {
     "StoreType": "c",
@@ -12207,7 +12207,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1111": {
     "StoreType": "a",
@@ -12229,7 +12229,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1113": {
     "StoreType": "a",
@@ -12240,7 +12240,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1114": {
     "StoreType": "a",
@@ -12251,7 +12251,7 @@
     "Promo2": 0,
     "Promo2SinceWeek": NaN,
     "Promo2SinceYear": NaN,
-    "PromoInterval": NaN
+    "PromoInterval": null
   },
   "1115": {
     "StoreType": "d",
