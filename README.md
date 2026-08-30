@@ -1,8 +1,6 @@
 # Rossmann Store Sales Forecasting API
 
-[![CI Pipeline](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml) 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI Pipeline](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **🔗 Live demo: [https://time-series-forecasting-4zn2.onrender.com/docs](https://time-series-forecasting-4zn2.onrender.com/docs)**
 
