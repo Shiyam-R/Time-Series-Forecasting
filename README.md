@@ -1,17 +1,12 @@
 # Rossmann Store Sales Forecasting API
 
-[![CI Pipeline](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml)
+[![CI Pipeline](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/Shiyam-R/Time-Series-Forecasting/actions/workflows/ci.yml) 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **🔗 Live demo: [https://time-series-forecasting-4zn2.onrender.com/docs](https://time-series-forecasting-4zn2.onrender.com/docs)**
 
 A production-quality, multi-horizon sales forecasting system built on the [Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales) dataset — from raw-data preprocessing through a containerized, CI-tested FastAPI inference service.
-
-[![CI](https://github.com/<your-username>/Time-Series-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/Time-Series-Forecasting/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-> Replace `<your-username>` in the badge URL above with your actual GitHub username/org once this is pushed, or the badge won't resolve.
-
----
 
 ## Overview
 
